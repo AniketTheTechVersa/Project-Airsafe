@@ -1,11 +1,3 @@
-![Screenshot 2024-12-30 175414](https://github.com/user-attachments/assets/5eac07a9-68d4-4f00-a643-4aec6f8d9fd2)
-
-|<p>![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.003.png)</p><p></p><p></p>|<p></p><p></p><p></p><p></p>|
-| -: | :- |
-
-
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.002.png)*
-
 **PROJECT AIRSAFE- Insights on Airliner, Corporate and Mil-Transport Aircraft Accidents (2019-24)** 
 
 -----
@@ -13,7 +5,11 @@
 
 Air travel is widely regarded as one of the safest modes of transportation. According to ICAO, in 2023, the global accident rate for **scheduled commercial flights** was **1.93 accidents per million departures**, a notable improvement from **2.25 per million departures** in 2019. These figures highlight ongoing advancements in aviation safety. However, there remain areas for improvement, particularly in addressing high-risk factors like **turbulence, runway excursions, and seasonal risks**. This project analyses global aviation accidents from 2019 to 2024 (for **Airliner, Corporate and Mil-Transport Aircrafts)** to provide actionable insights and granular recommendation for airlines, regulators, and passengers, ensuring further strides in air safety.
 
-From the dataset, despite tragic accidents, aviation remains one of the safest modes of transportation. Over the six years, **1,360 accidents** were reported out of **over ~200 million flights**, with a fatality rate of **~1 in 94,000 flights**.
+The dataset shows that despite tragic accidents, aviation remains one of the safest modes of transportation. Over the six years, **1,360 accidents** were reported out of **over ~200 million flights**, with a fatality rate of **~1 in 94,000 flights**.
+
+![Screenshot 2024-12-30 175414](https://github.com/user-attachments/assets/5eac07a9-68d4-4f00-a643-4aec6f8d9fd2)
+
+[View the Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiZWFmYjkxODUtYjU4Ni00YTBiLWEyNGYtODM3ZjI1MTE3OGJiIiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9&embedImagePlaceholder=true&pageName=073eae665a230b25a06a)
 
 -----
 **Key Objectives**
@@ -26,7 +22,8 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 
 - **Tools Used**: Power BI, Excel, Python.
 - **Techniques Applied**: Data cleaning, trend analysis, seasonal impact analysis, survivability analysis, accident analysis, and evidence-based storytelling with data.
------**Contents**
+-----
+**Contents**
 1. Key Quantified Insights
 1. Trends Over Time: Are Fatalities Declining or Shifting?
 1. Seasonality Analysis: Are July and August Riskier to Fly?
@@ -48,20 +45,20 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 - **Boeing** recorded the highest number of accidents at **256** incidents **(18.82%),** followed by Cessna and Airbus.
 - The steepest decline in accidents occurred between **2019** and **2021**, with incidents dropping from **293** to **215**, a **26.62%** decrease.
 - Between **2019** and **2024**, accidents decreased by **35.49%,** and fatalities reduced by **6.65%,** showcasing improved safety protocols.
-1. **Peak and Low Periods:**
+2. **Peak and Low Periods:**
 - **2019** had the highest number of accidents at **293**, **57.53%** higher than **2023**, which recorded the lowest number of accidents at **186**.
 - August consistently emerged as the riskiest month, with **139** accidents **(10.15%)**, followed by July **(136)** and February (127). **June** recorded the fewest incidents at **97** accidents, **43.30%** lower than August.
 - The **3rd day** of each month saw the most accidents at **64** incidents, **236.84%** higher than the **31st day**, which had only **19** accidents.
 
-1. **Seasonal and Quarterly Patterns:**
+3. **Seasonal and Quarterly Patterns:**
 - **Q3 (July to September)** reported the highest accident rate with **386 incidents (28.47%),** **28.67% higher than Q2 (April to June**), which had the lowest at **300 incidents**.
 - The seasonal surge aligns with **peak summer air traffic and adverse weather conditions**, such as turbulence and thunderstorms.
-1. **Fatalities and Divergence:**
+4. **Fatalities and Divergence:**
 - A total of **2,124** lives were lost in aviation accidents from 2019 to 2024.
 - The year 2024 recorded the largest divergence between fatalities and accidents, with fatalities exceeding accidents by **232** cases, highlighting a spike in severe incidents despite fewer accidents.
 
 
-1. **Notable Accident Locations:**
+5. **Notable Accident Locations:**
 - **Khartoum International Airport** (**KRT**) had the highest number of accidents **(21 incidents),** largely attributed to the **Sudanese armed conflict** in April **2023**.
 - **Nashville-John C. Tune Airport**, TN (KJWN) and **Chicago-O'Hare International Airport**, IL (ORD/KORD) tied for second with **12** incidents each.
 
@@ -92,7 +89,8 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 # Deep-Dive Analysis
 1. **Trends Over Time: Are Fatalities Declining or Shifting?**
 
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.004.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.005.png)
+![Screenshot 2024-12-30 175629](https://github.com/user-attachments/assets/630ff61f-99fc-4261-945d-9c0b08cf98d9)
+
 
 - **Findings**:
   - From **2019 to 2024**, total accidents declined by **35.49%**, with accidents decreasing from **293 in 2019** to **189 in 2024**.
@@ -110,11 +108,12 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
   - Mandate **geo-fencing technologies** for flights entering conflict-prone regions.
   - Conduct **routine audits** of national safety oversight systems using ICAO’s **USOAP Continuous Monitoring Approach (CMA)**.
 -----
-1. **Seasonality Analysis: Are July and August Riskier to Fly?**
+2. **Seasonality Analysis: Are July and August Riskier to Fly?**
 
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.006.png)
+![Screenshot 2024-12-29 211652](https://github.com/user-attachments/assets/16755180-cf54-4543-93ea-88a3ff74c934)
 
-`  `**Observations from the Data**
+
+**Observations from the Data**
 
 1. **High Accident Rates in July and August**:
    1. These months consistently recorded the highest number of accidents across all aviation sectors (commercial, private, and military).
@@ -124,8 +123,8 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 
 
 
-1. **Predominant Cause**:
-   1. **Turbulence** was cited in **28.75% of accidents** during these months for scheduled commercial flights, disproportionately affecting flights over the **Intertropical Convergence Zone (ITCZ)** and regions prone to convective weather systems.
+ **Predominant Cause**:
+   -**Turbulence** was cited in **28.75% of accidents** during these months for scheduled commercial flights, disproportionately affecting flights over the **Intertropical Convergence Zone (ITCZ)** and regions prone to convective weather systems.
 
 **Possible Explanations for the Trends**
 
@@ -172,17 +171,19 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 
 
 
------
+
 
 -----
 
-1. <a name="_hlk186459923"></a>**High-Risk Locations: Mapping Aviation Hotspots**
+3. <a name="_hlk186459923"></a>**High-Risk Locations: Mapping Aviation Hotspots**
 
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.007.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.008.png)![ref1]![ref2]![ref2]![ref1]![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.011.png)
+![Screenshot 2025-01-03 151301](https://github.com/user-attachments/assets/84b484b1-fdc4-4b9a-968a-a3e5c30c5d79)
+
 
 *Fig - Map showcasing accident hotspots (both fatal and non-fatal accidents), each bubble represents an accident.*
 
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.012.png)
+![Screenshot 2024-12-29 210944](https://github.com/user-attachments/assets/2e8c7226-21b5-4c24-a1a6-b851fe381af7)
+
 
 *Fig - Map showing only fatal accidents (Bubble size varies with number of deaths in that event)*
 
@@ -208,7 +209,7 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
   - Enforce stricter adherence to ICAO’s **Runway Safety Team (RST)** guidelines.
 -----
 
-1. <a name="_hlk186460009"></a>**Fatalities and Survival Analysis: What Drives Severity?**
+4. <a name="_hlk186460009"></a>**Fatalities and Survival Analysis: What Drives Severity?**
 
 **Analysis**:
 
@@ -226,45 +227,31 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 - **For Public**:
   - Avoid carriers with a history of frequent fatalities or poor adherence to ICAO safety audits.
 -----
-1. <a name="_hlk186460050"></a>**Aircraft-Specific Findings: Why Are Some Models More Prone to Accidents?**
+5. <a name="_hlk186460050"></a>**Aircraft-Specific Findings: Why Are Some Models More Prone to Accidents?**
 
 
 
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.013.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.014.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.015.png)**Operator, Manufacturer and Damage Statistics & Analysis:** 
+**Operator, Manufacturer and Damage Statistics & Analysis:** 
+ ![Screenshot 2025-01-03 151859](https://github.com/user-attachments/assets/573ff7ae-1f59-4db7-8e6e-d1f408266e90)
 
-
-
-- ![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.016.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.017.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.018.png)**Private** operators accounted for **7.37%** of accidents, underscoring the need for stricter oversight in this sector. 
-
+- **Private** operators accounted for **7.37%** of accidents, underscoring the need for stricter oversight in this sector. 
 - **Boeing** recorded the highest number of accidents at **256** incidents **(18.82%),** followed by Cessna and Airbus.
+  
+![Screenshot 2025-01-03 152205](https://github.com/user-attachments/assets/6de5c415-f4d5-447f-9f3f-0e491d9c6224)
+
+  
 - Post accidents aircrafts are assigned with one of the five damage **types i.e. No Damage, Minor Damage, Substantial Damage, Write-Off (total loss) and Unknown (no information).**
+  
+![Screenshot 2025-01-03 152322](https://github.com/user-attachments/assets/a445a231-8fab-41f6-9289-160b22f69efb)
 
 - Among all damage types, **"Write Off"** incidents accounted for **96.40%** of fatalities, with Cessna aircrafts experiencing the highest number of write-offs (**75 incidents**), followed by Antonov (**61**), Beechcraft (**43**), Boeing (**21**), and BAE (**20**).
 
-
-
-
-  ![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.019.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.020.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.021.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.022.png)
-
-
-
-  ![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.023.jpeg)
-
 - The **Cessna 208B Grand Caravan** alone accounted for **4.35%** of all accidents, emphasizing the risks in non-scheduled operations and reflecting its high operational volume in private and regional aviation.
+  
+![Screenshot 2025-01-03 152815](https://github.com/user-attachments/assets/9d531941-714c-482f-936a-d904d2f9b2f7)
 
 
-
-
-
-
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.024.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.025.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.026.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.027.jpeg)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.028.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.029.png)
-
-
-
-
-
-
-![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.030.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.031.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.032.jpeg)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.033.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.034.png)![](Aspose.Words.920fecba-c58a-4cb1-b3f7-57aa7a8ffd0e.035.png)
+  ![Screenshot 2025-01-03 152938](https://github.com/user-attachments/assets/0177c191-a744-413a-9a8f-9afd98940d34)
 
 
 **Recommendations:**
@@ -282,7 +269,7 @@ From the dataset, despite tragic accidents, aviation remains one of the safest m
 
 - Undergo additional training on managing high-risk aircraft models, focusing on emergency handling during adverse events.
 -----
-1. <a name="_hlk186460119"></a>**Cause Analysis (For scheduled commercial flights 2019-2023 as per ICAO): What’s Driving Accidents?**
+6. <a name="_hlk186460119"></a>**Cause Analysis (For scheduled commercial flights 2019-2023 as per ICAO): What’s Driving Accidents?**
 
 Top Causes of Accidents (Ranked)
 
@@ -311,14 +298,14 @@ Top Causes of Accidents (Ranked)
 
 **Solutions in Depth**
 
-1. **Enhanced Detection Technologies**:
-   1. Airlines should adopt **LIDAR-based turbulence sensors**, which can detect clear-air turbulence (CAT) up to 30 kilometres ahead of the aircraft.
-   1. Utilize satellite-based **GNSS signals** to monitor atmospheric disturbances.
-1. **Operational Adjustments**:
-   1. Collaborate with weather forecasting agencies to access **micro-climate reports**, focusing on turbulence-prone regions.
-   1. Redesign flight paths over areas like the ITCZ during peak turbulent months.
-1. **Passenger Engagement**:
-   1. Implement **real-time turbulence notifications** via onboard systems to ensure passengers stay seated and buckled.
+- **Enhanced Detection Technologies**:
+- Airlines should adopt **LIDAR-based turbulence sensors**, which can detect clear-air turbulence (CAT) up to 30 kilometres ahead of the aircraft.
+- Utilize satellite-based **GNSS signals** to monitor atmospheric disturbances.
+ **Operational Adjustments**:
+   - Collaborate with weather forecasting agencies to access **micro-climate reports**, focusing on turbulence-prone regions.
+   -Redesign flight paths over areas like the ITCZ during peak turbulent months.
+ **Passenger Engagement**:
+   - Implement **real-time turbulence notifications** via onboard systems to ensure passengers stay seated and buckled.
 -----
 **How Safe Is Air Travel?**
 
@@ -328,14 +315,14 @@ Top Causes of Accidents (Ranked)
 -----
 **Communicating Safety: Data-Driven Confidence for Passengers**
 
-1. Air travel is safer than ever, with continued technological advancements reducing risks.
-1. Passengers should rely on airlines with strong safety ratings and consider flight timings for smoother travel experiences.
-1. Adherence to simple safety practices, such as wearing seat belts, can significantly reduce personal risk.
+- Air travel is safer than ever, with continued technological advancements reducing risks.
+- Passengers should rely on airlines with strong safety ratings and consider flight timings for smoother travel experiences.
+- Adherence to simple safety practices, such as wearing seat belts, can significantly reduce personal risk.
 -----
 
 **Acknowledgments**
 
-- **Data Sources**: ASN, ICAO, FAA, DGCA.
+- **Data Sources**: Aviation Safety Network (ASN) , International Civil Aviation Organization (ICAO) , Federal Aviation Administration (FAA) .
 - Special thanks to global aviation safety organizations for providing crucial safety data and guidelines.
 -----
 
